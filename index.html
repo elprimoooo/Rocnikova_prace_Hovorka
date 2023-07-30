@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dijkstruv_algoritmus</title>
+  <link rel="stylesheet" href="newcss.css">
+</head>
+<body>
+  <div class="container">
+    <div class="navbar">
+      <div class="logo">
+        <img src="images/visual-dijkstra-logo.png" alt="Logo">
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#co-to-je">Co to je</a></li>
+          <li><a href="#kde-se-objevuje">Kde se to objevuje</a></li>
+          <li><a href="#prakticky-priklad" id="posunoutdolu">Praktický příklad</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div id="home" class="welcome">
+      <div class="info">
+        <h1>Vítejte na mé stránce!</h1>
+        <p>Tento projekt je věnován podrobnému popisu Dijkstrova algoritmu, který je klíčovým algoritmem pro nalezení nejkratších cest v grafech.</p>
+        <p>Stránka poskytuje uživatelům srozumitelný a přehledný výklad Dijkstrova algoritmu včetně jeho kroků a principu fungování.</p>
+      </div>
+      <div class="info">
+        <img src="images/cesta.png" alt="Ilustrační obrázek">
+      </div>
+    </div>
+    <div id="co-to-je" class="wit">
+      <h1>Co je Dijkstrův algoritmus</h1>
+      <p>Dijkstrův algoritmus je algoritmus pro nalezení nejkratších cest v grafu. Spočívá v postupném procházení vrcholů grafu a aktualizaci jejich vzdáleností od počátečního vrcholu. Algoritmus využívá prioritní frontu k výběru nejbližšího dosud neprozkoumaného vrcholu.</p>
+      <p>Pro každý vrchol udržuje algoritmus aktuální vzdálenost od počátečního vrcholu a postupně aktualizuje vzdálenosti sousedních vrcholů. Tím vytváří strom nejkratších cest, který je následně použit pro nalezení nejkratší cesty z počátečního vrcholu do všech ostatních vrcholů.</p>
+    </div>
+    <div id="kde-se-objevuje" class="usage">
+      <h1>Využití Dijkstrova algoritmu</h1>
+      <ul>
+        <li><strong>Routování v počítačových sítích:</strong> Dijkstrův algoritmus je často používán pro nalezení nejkratších cest v počítačových sítích, například při směrování paketů v internetovém protokolu.</li>
+        <li><strong>Plánování dopravy:</strong> Algoritmus je využíván pro plánování trasy veřejné dopravy, kde je potřeba najít nejkratší cestu mezi zastávkami.</li>
+        <li><strong>Geografické informační systémy:</strong> Dijkstrův algoritmus se používá k vyhledávání nejkratších cest v mapách a geografických datech.</li>
+        <li><strong>Optimalizace logistických procesů:</strong> Algoritmus může být využit pro optimalizaci tras při doručování zásilek, plánování tras vozidel nebo v oblasti řízení dopravního toku.</li>
+      </ul>
+      <img src="images/obr-tzi-18.png">
+    </div>
+    <<div id="konec" class="bottom"></div>
+
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
